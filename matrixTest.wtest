@@ -1,4 +1,4 @@
-
+import matrix.*
 
 describe "group of tests " {
 
@@ -6,4 +6,9 @@ describe "group of tests " {
     assert.equals(100, 50+50)
   }
 
+  
+
+  test "Pasajero de mayor vitalidad" {
+    assert.equals(neo, nave.pasajeroDeMayorVitalidad())      
+  }
 }
